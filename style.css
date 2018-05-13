@@ -264,11 +264,20 @@ body {
 }
 
 h1 {
-  font-family: "Helvetica";
+  font-family: "Roboto";
   text-align: center;
-  text-transform: uppercase;
   color: #888;
   font-size: 19px;
   padding-top: 10px;
   text-shadow: 1px 1px 0px #111;
 }
+
+h3 {
+  font-family: "Roboto";
+  text-align: center;
+  color: #000;
+  font-size: 12px;
+  padding-top: 10px;
+  text-shadow: 1px 1px 0px #111;
+}
+
