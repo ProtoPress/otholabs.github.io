@@ -21,10 +21,10 @@ gulp.task('build-theme', function() {
       'Android >= 4',
       'Opera >= 12']})]))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('css/'))
+    .pipe(gulp.dest('assets/css/'))
     .pipe(cleanCss())
     .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest('css/'))
+    .pipe(gulp.dest('assets/css/'))
 });
 
 gulp.task('watch', ['build-theme'], function() {
